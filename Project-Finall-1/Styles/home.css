@@ -1,0 +1,113 @@
+﻿
+.login-ri
+{
+    
+}
+.header{
+    background-color: #333333;
+    height:300px;
+    
+
+    }
+ .a
+ {     background-color: rgb(204, 203, 203);
+     color: rgb(80, 79, 76);
+     font-weight: bold; 
+    border-bottom-style: dashed;
+    width: 263px;
+    height: 20px;
+    border-left-width: thin;
+    border-right-width: thin;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    margin-left: -13px;
+}
+
+
+.vorod
+{
+    border: 1px dashed orange;
+     background-color: #333333;
+    }
+   
+.signin a:hover
+{
+    cursor: pointer;
+    color: #FF0000;
+}
+.bottom a:hover
+{
+    color: #0066CC;
+    cursor: pointer;
+}
+ul.tabs
+{
+    margin: 0;
+    padding: 0;
+}
+ul.tabs li
+{
+    list-style: none;
+    float: right;
+    width: 175px;
+}
+ul.tabs li a
+{
+    display: block;
+    width: 167px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #888;
+    background: #fff url('tabbed-tab-bg.jpg') repeat-x 50% bottom;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+er li
+{
+    width: 90%;
+    height: 90%;
+    color: rgb(153, 153, 153);
+    float: left;
+    display: block;
+}
+
+
+.Initial
+{
+    cursor: pointer;
+    display: block;
+    padding: 4px 18px 4px 18px;
+    float: right;
+    background-color: #9D9D9D;
+}
+.hove:hover
+{
+    cursor: pointer;
+    background-color: #66CCFF;
+}
+.Clicked
+{
+    float: right;
+    display: block;
+    padding: 4px 18px 4px 18px;
+    background-color: #FFC164;
+}
+
+.hove
+{
+    display: block;
+    padding: 4px 18px 4px 18px;
+    float: right;
+    background-color: #9D9D9D;
+}
+.h
+{
+    background-image: url('../../img/detail.png');
+}
+   .img{ border-radius: 10px;
+    border: 3px solid #464646;
+    height: 190px;
+    width: 212px;
+}

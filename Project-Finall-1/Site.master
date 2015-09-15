@@ -1,0 +1,201 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Styles/frame.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page" style="height: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px;">
+    <form id="form1" runat="server">
+
+    <div id="header">
+        <div id="fix_menu">
+            <a href="">
+                <p>
+                    <img src="images/info-26.png" alt="درباره ما" /><br />
+                    درباره ما</p>
+            </a><a href="">
+                <p>
+                    <img src="images/address_book-26.png" alt="تماس با ما" /><br />
+                    تماس با ما</p>
+            </a><a href="">
+                <p>
+                    <img src="images/home-26.png" alt="خانه" /><br />
+                    خانه</p>
+            </a>
+        </div>
+        <div class="headercen">
+        </div>
+        <div id="logo_fa">
+            <a href="">
+                <img src="images/logo_office.png" />
+            </a>
+        </div>
+        <div class="top">
+            <div class="bg">
+                <div class="contain">
+                    <div class="clear">
+                    </div>
+                    <div class="grid1">
+                        <nav>
+                          <ul class="menu11">
+                                <li class="first"><a class="active" href="HTMLPage.htm">صفحه اصلی</a></li>
+                                <li><a href="HTMLPage.htm">تورها</a>
+                                      <ul>
+                                        <li><a href="">تورهای داخلی</a></li>
+                                        <li><a href="">تورهای خارجی</a></li>
+                                     
+                                            </ul></li>
+                                <li><a href="HTMLPage.htm">هتل ها</a>
+                                
+                                       <ul>
+                                        <li><a href="">هتل های داخلی</a></li>
+                                        <li><a href="">هتل های خارجی</a></li>
+                                     
+                                            </ul>
+
+                                          </li>
+                                      
+                                 <li><a href="HTMLPage.htm">پروازها</a>
+                                    <ul>
+                                        <li><a href="">پروازهای داخلی</a></li>
+                                        <li><a href="">پرواز های خارجی</a></li>
+                                     
+                                            </ul>
+                                 </li>
+                                <li><a href="HTMLPage.htm">رزرواسیون</a>
+                                     <ul>
+                                        <li><a href="">رزرو بلیط</a></li>
+                                        <li><a href="">رزرو تور</a></li>
+                                      <li><a href="">رزرو هتل</a></li>
+                                        <li><a href="">پیگیری رزرو</a></li>
+                                            </ul>
+                                </li>
+                                 <li><a href="HTMLPage.htm">اخبار</a>
+                                 <ul>
+                                     <li><a href="">معرفی جاذبه های توریستی</a></li>
+                                        <li><a href="">اخبار تورها</a></li>
+                                      <li><a href="">اخبار ارز</a></li>
+                                        <li><a href="">مطالب جالب و خواندنی</a></li>
+                                         <li><a href=""> اطلاعات ضروری سفر</a></li>
+                                       </ul>
+                                 </li>
+                                <li><a href="HTMLPage.htm">راهنمای گردشگری</a>
+                                     <ul>
+                                     <li><a href="">گالری عکس</a></li>
+                                        <li><a href="">راهنمای گردشگری داخلی</a></li>
+                                      <li><a href="">راهنمای گردشگری خارجی</a></li>
+                                       
+                                       </ul>
+                                
+                                </li>
+                                 <li><a href="HTMLPage.htm">اطلاغات مفید</a>
+                                     <ul>
+                                     <li><a href="">اطلاعات مفید هتل ها</a></li>
+                                        <li><a href="">خدمات اخذ ویزا</a></li>
+                                      <li><a href="">مدارک لازم جهت صدور گذرنامه</a></li>
+                                        <li><a href="">توصیه های انتظامی به مسافران</a></li>
+                                       </ul>
+                                 
+                                 </li>
+                                 <li><a href="HTMLPage.htm">ثبت نام</a></li>
+                                  <li><a href="HTMLPage.htm">ارتباط با ما</a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="slidshow">
+        <object id="Categories" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"
+            align="middle" width="790" height="350">
+            <param name="allowScriptAccess" value="sameDomain" />
+            <param name="movie" value="/swf/Categories.swf" />
+            <div class="slid">
+                <embed allowscriptaccess="sameDomain" bgcolor="#ebebeb" menu="false" name="Categories"
+                    pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="swf/Categories.swf"
+                    type="application/x-shockwave-flash" align="middle" width="1263px" height="250px"></div>
+        </object>
+    </div>
+    <div id="main">
+        <div id="right">
+            <div class="a-right" dir="rtl">
+                ورود به سیستم</div>
+            <div dir="rtl">
+                <br />
+                نام&nbsp; کاربری:<br />
+                <asp:TextBox ID="txt_username" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid"
+                    BorderWidth="1px" Font-Names="Tahoma" Font-Size="Small" Height="22px" Width="170px"
+                    Class="styletextbox"></asp:TextBox>
+                <br />
+                کلمه عبور:<br />
+                <asp:TextBox ID="txt_password" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid"
+                    BorderWidth="1px" Font-Names="Tahoma" Font-Size="Small" Height="22px" Width="170px"
+                    class="styletextbox"></asp:TextBox>
+                <br />
+                <div dir="rtl">
+                    <asp:CheckBox ID="chk_remember" runat="server" Font-Names="Tahoma" Text="مرا به خاطر بسپار"
+                        Font-Size="Small" BorderColor="#CCCCCC" /></div>
+                <br />
+                <asp:ImageButton ID="btn_signin" runat="server" ImageUrl="~/Styles/img/loginButton.png"
+                    Style="height: 20px" />
+                <br />
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Styles/img/user_forgot.gif" />
+                <asp:HyperLink ID="h_forgotpass" runat="server" Font-Names="Tahoma" Font-Size="X-Small"
+                    ForeColor="#66CCFF">آیا کلمه عبور خود را فراموش کرده اید؟</asp:HyperLink>
+                <br />
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Styles/img/user_add.gif" />
+                <asp:LinkButton ID="lnk_signup" runat="server" Font-Names="Tahoma" Font-Size="X-Small"
+                    ForeColor="#66CCFF">آیا هنوز ثبت نام نکرده اید؟</asp:LinkButton>
+            </div>
+            <div class="khabar">
+                <div class="titr" dir="rtl">
+                    اخبار گردشگری</div>
+                <div  class="kh1">
+                    <a href="#" dir="rtl">
+                    هتل اورنج کانتری،آنتالیا</a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+                </div>
+                <div  class="kh2"><a>
+                    زیباترین دریاچه های دنیا </a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+               </div>
+                <div  class="kh3"><a>
+                    تور هواداری تیم استقلال</a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+                </div>
+              <div  class="kh4"> <a> 
+                    اعلان نام برندگان تور کیش </a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+               </div>
+                <div class="kh5"><a>
+                    زلزله 7.5 ریشتری در سیستان و بلوچستان</a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+                </div>
+                <div class="kh6"><a>
+                    هتلی زیبا و استثنایی در مالدیو</a>
+                    <hr style="border: 0.125px solid #C0C0C0; background-color: red;" align="right" width="100%" />
+                </div>
+            </div>
+        </div>
+        <div id="content">
+              <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div id="left">
+            left
+        </div>
+        <div id="footer">
+            footer</div>
+    </div>
+    </form>
+</body>
+</html>
